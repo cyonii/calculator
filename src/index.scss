@@ -9,7 +9,8 @@ $primary: #f5913e;
   }
 
   &:hover {
-    box-shadow: inset -1px -1px 1px 0 rgba(209, 209, 209, 0.795),
+    box-shadow:
+      inset -1px -1px 1px 0 rgba(209, 209, 209, 0.795),
       inset 1px -1px 1px 0 rgba(209, 209, 209, 0.795),
       inset -1px 1px 1px 0 rgba(209, 209, 209, 0.795),
       inset 1px 1px 1px 0 rgba(209, 209, 209, 0.795);
