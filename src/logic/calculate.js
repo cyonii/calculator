@@ -1,12 +1,11 @@
 import operate from './operate';
+import { resetState } from '../state/utils';
 
 export default function calculate(data, btnName) {
   let { total, next, operation } = { ...data };
 
   if (btnName === 'AC') { // To reset state
-    total = null;
-    next = null;
-    operation = null;
+    ({ total, next, operation } = resetState());
   } else if (btnName === '+/-') { // To negate one of the operands
     if (next) {
       next *= -1;
