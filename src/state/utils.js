@@ -1,7 +1,7 @@
 const resetState = () => ({
-  total: 0,
-  next: 0,
-  operator: null,
+  total: '',
+  next: '',
+  operator: '',
 });
 
 module.exports = { resetState };
