@@ -3,18 +3,20 @@
 This is a calculator application that perform basic calculation operations, including division, multiplication, addition, and substraction. This project was scaffoleded using [Create React App](https://github.com/facebook/create-react-app).
 
 ## Getting Started
+
 To get a copy of this application in your local machine up and running please follow this step-by-step instructions below.
 
-#### Prerequisites
+### Prerequisites
 
 Make sure you have [node.js](https://nodejs.org/) installed on your local machine. Open your `terminal` and follow these instructions.
 
 1. Clone this repo by running ```git clone git@github.com:cyonii/todo-app.git```, and `cd` into it's root directory
-3. Run `npm install` to install the project's dependencies.
-4. Run `npm run start`, the app should be started by this command
-5. Head over to your browser and open `localhost:3000` to view app.
+2. Run `npm install` to install the project's dependencies.
+3. Run `npm run start`, the app should be started by this command
+4. Head over to your browser and open `localhost:3000` to view app.
 
 ## Tech & Tools
+
 This application is built with the following tools and libraries:
 
 - Javascript
@@ -25,13 +27,14 @@ This application is built with the following tools and libraries:
 - CSS (SASS)
 
 ## Live-demo
+
 See the [live demo](https://calcux.herokuapp.com/)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-#### `npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -39,7 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-#### `npm test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
