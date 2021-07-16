@@ -1,15 +1,18 @@
 import Big from 'big.js';
 
 export default function operate(total, next, operator) {
-  const operatorMap = {
-    '÷': Big.prototype.div,
-    '*': Big.prototype.times,
-    '+': Big.prototype.plus,
-    '-': Big.prototype.minus,
-  };
-
-  if (operator !== '%') {
-    return operatorMap[operator].call(total, next);
+  switch (operator) {
+    case '÷':
+      return Big(total).div(next);
+    case '*':
+      return Big(total).times(next);
+    case '+':
+      return Big(total).plus(next);
+    case '-':
+      return Big(total).minus(next);
+    case '%':
+      return Big(total).div(100);
+    default:
+      return total;
   }
-  return new Big(total).div(100);
 }

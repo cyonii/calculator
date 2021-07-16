@@ -1,18 +1,18 @@
 import PropTypes from 'prop-types';
 
 const Display = (props) => {
-  const { result } = props;
-  const displayCSS = 'px-2 py-3 py-lg-4 rounded-pill mb-3 bg-secondary text-end fs-5 text-white';
+  const { total, next, operator } = props;
+  const result = operator ? next : total;
 
-  return <div className={`${displayCSS}`}>{result}</div>;
+  const className = 'px-2 py-3 py-lg-4 rounded-pill mb-3 bg-secondary text-end fs-5 text-white';
+
+  return <div className={`${className}`}>{result || total || 0}</div>;
 };
 
 Display.propTypes = {
-  result: PropTypes.string,
-};
-
-Display.defaultProps = {
-  result: '0',
+  total: PropTypes.string.isRequired,
+  next: PropTypes.string.isRequired,
+  operator: PropTypes.string.isRequired,
 };
 
 export default Display;
