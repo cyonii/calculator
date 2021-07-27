@@ -6,7 +6,7 @@ afterEach(() => cleanup);
 it('should render Button component', () => {
   render(<Button name="1" id="test" clickHandler={jest.fn} />);
 
-  const buttonElement = screen.getByText('1');
+  const buttonElement = screen.getByTestId('btn-1');
   expect(buttonElement).toBeInTheDocument();
-  expect(buttonElement).toHaveTextContent('1');
+  expect(buttonElement).toHaveTextContent('1', { exact: false });
 });
