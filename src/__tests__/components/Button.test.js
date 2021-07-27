@@ -1,12 +1,24 @@
 import { render, screen, cleanup } from '@testing-library/react';
 import Button from '../../components/Button';
 
-afterEach(() => cleanup);
+describe('<Button /> Component', () => {
+  let testButton;
 
-it('should render Button component', () => {
-  render(<Button name="1" id="test" clickHandler={jest.fn} />);
+  beforeEach(async () => {
+    testButton = <Button name="1" clickHandler={jest.fn} />;
+  });
 
-  const buttonElement = screen.getByTestId('btn-1');
-  expect(buttonElement).toBeInTheDocument();
-  expect(buttonElement).toHaveTextContent('1', { exact: false });
+  afterEach(() => cleanup);
+
+  it('should render correctly', () => {
+    render(testButton);
+
+    const buttonElement = screen.getByTestId('btn-1');
+    expect(buttonElement).toBeInTheDocument();
+    expect(buttonElement).toHaveTextContent('1');
+  });
+
+  test('should match snapshot', () => {
+    expect(testButton).toMatchSnapshot();
+  });
 });
