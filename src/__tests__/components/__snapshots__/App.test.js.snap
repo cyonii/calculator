@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Component should match snapshot 1`] = `
+<div
+  class="container text-center"
+  data-testid="app"
+>
+  <h1
+    class="mt-3 mb-4"
+  >
+    Calculator
+  </h1>
+  <div
+    class="row justify-content-center"
+  >
+    <div
+      class="col-sm-10 col-md-7 col-lg-5 col-xl-4"
+    >
+      <div
+        class="card calc-card border-0"
+      >
+        <div
+          class="card-body py-5"
+        >
+          <div
+            class="px-2 py-3 py-lg-4 rounded-pill mb-3 bg-secondary text-end fs-5 text-white"
+            data-testid="display"
+          >
+            0
+          </div>
+          <div
+            data-testid="button-panel"
+          >
+            <div
+              class="row mb-3"
+            >
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-AC"
+                  type="button"
+                >
+                  AC
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-+/-"
+                  type="button"
+                >
+                  +/-
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-%"
+                  type="button"
+                >
+                  %
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn btn-primary border-primary calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-÷"
+                  type="button"
+                >
+                  ÷
+                </button>
+              </div>
+            </div>
+            <div
+              class="row mb-3"
+            >
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-7"
+                  type="button"
+                >
+                  7
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-8"
+                  type="button"
+                >
+                  8
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-9"
+                  type="button"
+                >
+                  9
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn btn-primary border-primary calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-*"
+                  type="button"
+                >
+                  *
+                </button>
+              </div>
+            </div>
+            <div
+              class="row mb-3"
+            >
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-4"
+                  type="button"
+                >
+                  4
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-5"
+                  type="button"
+                >
+                  5
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-6"
+                  type="button"
+                >
+                  6
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn btn-primary border-primary calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn--"
+                  type="button"
+                >
+                  -
+                </button>
+              </div>
+            </div>
+            <div
+              class="row mb-3"
+            >
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-1"
+                  type="button"
+                >
+                  1
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-2"
+                  type="button"
+                >
+                  2
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-3"
+                  type="button"
+                >
+                  3
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn btn-primary border-primary calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-+"
+                  type="button"
+                >
+                  +
+                </button>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col-6"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-0"
+                  type="button"
+                >
+                  0
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn  calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-."
+                  type="button"
+                >
+                  .
+                </button>
+              </div>
+              <div
+                class="col-3"
+              >
+                <button
+                  class="btn btn-primary border-primary calc-btn w-100 border rounded-pill fs-3 fw-bold py-2"
+                  data-testid="btn-="
+                  type="button"
+                >
+                  =
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

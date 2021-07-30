@@ -12,7 +12,7 @@ const ButtonPanel = (props) => {
   );
 
   return (
-    <>
+    <div data-testid="button-panel">
       <div className="row mb-3">
         {renderBtn('AC', 'col-3')}
         {renderBtn('+/-', 'col-3')}
@@ -46,7 +46,7 @@ const ButtonPanel = (props) => {
         {renderBtn('.', 'col-3')}
         {renderBtn('=', 'col-3', 'btn-primary border-primary')}
       </div>
-    </>
+    </div>
   );
 };
 

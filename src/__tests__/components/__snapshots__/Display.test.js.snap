@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Display /> Component should match snapshot 1`] = `
+<div
+  class="px-2 py-3 py-lg-4 rounded-pill mb-3 bg-secondary text-end fs-5 text-white"
+  data-testid="display"
+>
+  43567
+</div>
+`;
