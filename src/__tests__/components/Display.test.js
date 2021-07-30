@@ -33,4 +33,11 @@ describe('<Display /> Component', () => {
     const display = screen.getByTestId('display');
     expect(display).toHaveTextContent('43567');
   });
+
+  it('should match snapshot', () => {
+    render(<Display total="234" next="43567" operator="+" />);
+
+    const display = screen.getByTestId('display');
+    expect(display).toMatchSnapshot();
+  });
 });
