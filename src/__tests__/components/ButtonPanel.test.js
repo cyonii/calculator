@@ -1,4 +1,6 @@
-import { render, screen, cleanup, within } from '@testing-library/react';
+import {
+  render, screen, cleanup, within,
+} from '@testing-library/react';
 import ButtonPanel from '../../components/ButtonPanel';
 
 describe('<ButtonPanel /> Component', () => {
