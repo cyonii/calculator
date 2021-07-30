@@ -20,7 +20,7 @@ class App extends React.Component {
     const { total, next, operator } = this.state;
 
     return (
-      <div className="container text-center">
+      <div className="container text-center" data-testid="app">
         <h1 className="mt-3 mb-4">Calculator</h1>
         <div className="row justify-content-center">
           <div className="col-sm-10 col-md-7 col-lg-5 col-xl-4">
