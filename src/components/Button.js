@@ -8,7 +8,12 @@ const Button = (props) => {
   const handleClick = () => clickHandler(name);
 
   return (
-    <button type="button" className={`btn ${className}`} onClick={handleClick}>
+    <button
+      type="button"
+      className={`btn ${className}`}
+      onClick={handleClick}
+      data-testid={`btn-${name}`}
+    >
       {name}
     </button>
   );

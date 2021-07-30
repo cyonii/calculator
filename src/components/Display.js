@@ -6,7 +6,11 @@ const Display = (props) => {
 
   const className = 'px-2 py-3 py-lg-4 rounded-pill mb-3 bg-secondary text-end fs-5 text-white';
 
-  return <div className={`${className}`}>{result || total || 0}</div>;
+  return (
+    <div className={`${className}`} data-testid="display">
+      {result || total || 0}
+    </div>
+  );
 };
 
 Display.propTypes = {
