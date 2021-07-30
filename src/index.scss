@@ -1,0 +1,38 @@
+$primary: #f5913e;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+html,
+body {
+  background: #e0e5ec;
+}
+
+// Calculator card
+.calc-card {
+  background: #e0e5ec;
+  border-radius: 1rem;
+  box-shadow: -2px -2px 4px 0 rgb(255, 255, 255), 2px 2px 4px 0 rgba(0, 0, 0, 0.301);
+}
+
+// Calculator button style
+.calc-btn {
+  &,
+  &:focus {
+    box-shadow: -2px -2px 4px 0 rgb(255, 255, 255), 2px 2px 4px 0 rgba(0, 0, 0, 0.301);
+  }
+
+  &:hover {
+    box-shadow: -1px -1px 2px 0 rgb(255, 255, 255), 1px 1px 2px 0 rgba(0, 0, 0, 0.301);
+    opacity: 0.8;
+  }
+
+  &:active {
+    box-shadow: inset -3px -3px 4px 0 rgb(243, 243, 243), inset 3px 3px 4px 0 rgba(0, 0, 0, 0.301) !important;
+    color: dodgerblue;
+  }
+
+  &.btn-primary:active {
+    box-shadow: inset -6px -6px 4px 0 $primary, inset 4px 4px 4px 0 rgba(0, 0, 0, 0.301) !important;
+    color: dodgerblue;
+  }
+}
