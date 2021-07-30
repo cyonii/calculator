@@ -47,5 +47,9 @@ export default function calculate(data, buttonName) {
     }
   }
 
-  return { total, next, operator };
+  return {
+    total: total.toString(),
+    next: next.toString(),
+    operator: operator.toString(),
+  };
 }
